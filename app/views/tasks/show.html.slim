@@ -8,6 +8,10 @@ table.table.table-hover
       th= Task.human_attribute_name(:id)
       td= @task.id
     tr
+      th
+        | 作成者
+      td= @user.name
+    tr
       th= Task.human_attribute_name(:name)
       td= @task.name
     tr
