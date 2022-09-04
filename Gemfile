@@ -22,6 +22,7 @@ gem 'html2slim'
 gem 'bootstrap'
 gem 'rails_autolink'
 gem 'rails-i18n'
+gem 'ransack'
 
 
 # Use CoffeeScript for .coffee assets and views
