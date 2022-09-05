@@ -23,7 +23,8 @@ gem 'bootstrap'
 gem 'rails_autolink'
 gem 'rails-i18n'
 gem 'ransack'
-
+gem 'kaminari'
+gem 'sidekiq', '~> 5.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
