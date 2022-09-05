@@ -25,6 +25,8 @@ gem 'rails-i18n'
 gem 'ransack'
 gem 'kaminari'
 gem 'sidekiq', '~> 5.0'
+gem 'webpacker'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
