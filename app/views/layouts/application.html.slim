@@ -21,6 +21,7 @@ html
           li= link_to 'ログイン', login_path, class: "nav-link"
 
     .container
+      p git rebase前にmainを更新しました
       - if flash.notice.present?
         .alert.alert-success= flash.notice
       = yield
