@@ -2,14 +2,15 @@ doctype html
 html
   head
     title
-      | Taskleaf
+      | Taskleaf(現場rails修了)
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application'
   body
     .app-title.navbar.navbar-expand-md.navbar-light.bg-light
-      .navbar-brand Taskleaf
+      .navbar-brand 
+        | Taskleaf(現場rails修了)
       .ul.navbar-nav.ml-auto
         - if current_user
           li= link_to 'タスク一覧', tasks_path, class: "nav-link"
@@ -21,8 +22,6 @@ html
           li= link_to 'ログイン', login_path, class: "nav-link"
 
     .container
-      p git rebase前にmainを更新しました
-      p git rebaseがわからない
       - if flash.notice.present?
         .alert.alert-success= flash.notice
       = yield
